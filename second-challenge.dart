@@ -1,16 +1,18 @@
 // TODO 2 
+import 'dart:ffi';
+
 class Mahasiswa {
-//  ??? nama;
-//  ??? umur;
+ String? nama;
+ int? umur;
   
-// Mahasiswa(???,???);
+Mahasiswa(this.nama,this.umur);
 }
 
 void main() {
-  // Buat objek Mahasiswa
-  //Mahasiswa mahasiswa =???
+  //Buat objek Mahasiswa
+  Mahasiswa mahasiswa =  Mahasiswa('Naila', 20);
   
   // Cetak nilai atribut nama dan umur
-  // print(mahasiswa.nama);
-  // print(mahasiswa.umur);
+  print(mahasiswa.nama);
+  print(mahasiswa.umur);
 }

@@ -1,10 +1,10 @@
 // TODO 3
 void main() {
-  //int umur = value;
+  int umur = 20;
   
-  // if (umur > ???) {
-  //   print("Dewasa");
-  // } else {
-  //   print("Belum Dewasa");
-  // }
+  if (umur > 18) {
+    print("Dewasa");
+  } else {
+    print("Belum Dewasa");
+  }
 }

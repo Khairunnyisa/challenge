@@ -1,8 +1,8 @@
 // TODO 5
 void main() {
-  // List<String> namaMahasiswa = value
+  List<String> namaMahasiswa = ['Syahma', 'Hegira' , 'Tsalj'];
   
-  // for (String nama in namaMahasiswa) {
-  //   print(nama);
-  // }
+  for (String nama in namaMahasiswa) {
+    print(nama);
+  }
 }
